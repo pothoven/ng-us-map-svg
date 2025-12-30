@@ -20,7 +20,7 @@
  */
 
 import { Component, inject } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 import { MatDialog } from '@angular/material/dialog';
 // import { UsMapComponent } from 'ng-us-map-svg';
 // use the local version of the component
@@ -29,7 +29,7 @@ import { StateDialogComponent } from './state-dialog/state-dialog.component';
 
 @Component({
   selector: 'app-root',
-  imports: [CommonModule, UsMapComponent],
+  imports: [UsMapComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
